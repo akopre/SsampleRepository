@@ -28,6 +28,7 @@ public class FactTest {
 	@Test(expected=java.lang.IllegalArgumentException.class)
 	public void whenTheNumberIsNegativeSystemShouldThrowException()
 	{
+		System.out.println("Forked from Ashish");
 		m.getFactorial(-4);
 	}
 
